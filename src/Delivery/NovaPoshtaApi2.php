@@ -342,6 +342,25 @@ class NovaPoshtaApi2
 
         return $this->request('TrackingDocument', 'getStatusDocuments', $params);
     }
+    
+    /**
+     * Get cities of company NovaPoshta.
+     *
+     * @param int    $page         Num of page
+     * @param string $findByString Find city by russian or ukrainian word
+     * @param string $ref          ID of city
+     *
+     * @return mixed
+     */
+    public function getSettlements($page = 0, $areaRef = '', $ref = '', $regionRef = '')
+    {
+        return $this->request('AddressGeneral', 'getSettlements', array(
+            'Page' => $page,
+            'AreaRef' => $areaRef,
+            'Ref' => $ref,
+            'RegionRef' => $regionRef,
+        ));
+    }
 
     /**
      * Get cities of company NovaPoshta.
