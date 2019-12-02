@@ -4,6 +4,13 @@
     "keywords": ["delivery", "delivery service", "nova poshta", "nova poshta api"],
     "homepage": "https://github.com/lis-dev/",
     "license": "MIT",
+    "repositories":
+    [
+        {
+            "type": "vcs",
+            "url": "https://github.com/VladislavGroniuk/nova-poshta-api-2"
+        }
+    ],
     "authors": [
         {
             "name": "Igor Ivashchenko",
