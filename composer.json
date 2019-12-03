@@ -7,8 +7,8 @@
     "repositories":
     [
         {
-            "type": "vcs",
-            "url": "https://github.com/VladislavGroniuk/nova-poshta-api-2"
+            "url": "https://github.com/VladislavGroniuk/nova-poshta-api-2",
+            "type": "vcs"
         }
     ],
     "authors": [
