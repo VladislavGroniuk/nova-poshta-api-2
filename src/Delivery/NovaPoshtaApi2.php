@@ -344,13 +344,7 @@ class NovaPoshtaApi2
     }
     
     /**
-     * Get cities of company NovaPoshta.
-     *
-     * @param int    $page         Num of page
-     * @param string $findByString Find city by russian or ukrainian word
-     * @param string $ref          ID of city
-     *
-     * @return mixed
+     * Get Settlements of company NovaPoshta.
      */
     public function getSettlements($page = 0, $areaRef = '', $ref = '', $regionRef = '')
     {
